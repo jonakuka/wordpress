@@ -1,0 +1,47 @@
+/*
+Theme Name: Art Gallery
+Theme URI: http://example.com/
+Author: Your Name
+Description: A custom WordPress theme for an art gallery.
+Version: 1.0
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background: #222;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    margin: 1em 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+.artwork {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    width: 250px;
+    padding: 1em;
+    text-align: center;
+}
+
+.artwork img {
+    max-width: 100%;
+    border-radius: 4px;
+}
