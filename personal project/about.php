@@ -1,7 +1,7 @@
 <?php
 session_start();
 $page_title = "About - Art Gallery";
-include 'includes/header.php';
+include 'header.php';
 ?>
 
 <main>
@@ -56,4 +56,4 @@ include 'includes/header.php';
     </section>
 </main>
 
-<?php include 'includes/footer.php'; ?>
+<?php include 'footer.php'; ?>
